@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mi Espacio Creativo</title>
+
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+body{
+
+font-family:Arial, Helvetica, sans-serif;
+background:#eeeeee;
+color:#333;
+
+}
+
+
+
+header{
+
+background:linear-gradient(90deg,#4b0082,#9b30ff);
+color:white;
+text-align:center;
+padding:30px;
+
+}
+
+
+.perfil{
+
+width:130px;
+height:130px;
+border-radius:50%;
+border:5px solid white;
+object-fit:cover;
+
+}
+
+
+
+h1{
+
+margin:15px;
+
+}
+
+
+
+nav{
+
+margin-top:20px;
+
+}
+
+
+nav a{
+
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+
+}
+
+
+
+main{
+
+width:90%;
+max-width:1100px;
+margin:auto;
+padding:30px;
+
+}
+
+
+
+section{
+
+background:white;
+padding:25px;
+margin-bottom:25px;
+border-radius:20px;
+box-shadow:0 5px 15px #aaa;
+
+}
+
+
+
+h2{
+
+color:#4b0082;
+margin-bottom:15px;
+
+}
+
+
+
+p{
+
+line-height:1.7;
+
+}
+
+
+
+.imagen{
+
+width:100%;
+height:300px;
+object-fit:cover;
+border-radius:15px;
+margin-top:15px;
+
+}
+
+
+
+
+.contenedor{
+
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+
+}
+
+
+
+.tarjeta{
+
+background:#f2f2f2;
+width:300px;
+padding:20px;
+border-radius:15px;
+text-align:center;
+
+}
+
+
+
+.tarjeta img{
+
+width:100%;
+height:170px;
+object-fit:cover;
+border-radius:10px;
+
+}
+
+
+
+
+.boton{
+
+display:inline-block;
+background:#4b0082;
+color:white;
+padding:12px 20px;
+border-radius:20px;
+margin-top:15px;
+text-decoration:none;
+
+}
+
+
+
+.boton:hover{
+
+background:#9b30ff;
+
+}
+
+
+
+
+
+footer{
+
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+
+}
+
+
+
+@media(max-width:700px){
+
+nav a{
+
+display:block;
+margin:10px;
+
+}
+
+
+.tarjeta{
+
+width:100%;
+
+}
+
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+
+<header>
+
+
+<img class="perfil"
+src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+
+
+<h1>Mi Espacio Creativo</h1>
+
+
+<p>Proyecto Final de Páginas Web</p>
+
+
+
+
+<nav>
+
+
+<a href="#inicio">🏠 Inicio</a>
+
+<a href="#sobre">👤 Sobre mí</a>
+
+<a href="#proyectos">💻 Proyectos</a>
+
+<a href="#contacto">✉ Contacto</a>
+
+
+</nav>
+
+
+
+</header>
+
+
+
+
+
+
+<main>
+
+
+
+
+<section id="inicio">
+
+
+<h2>🏠 Bienvenidos</h2>
+
+
+<p>
+
+Esta página web fue creada como proyecto final de la materia
+de Páginas Web utilizando HTML5 y CSS. Tiene como objetivo
+mostrar mis aprendizajes y proyectos realizados.
+
+</p>
+
+
+
+<img class="imagen"
+src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+
+
+</section>
+
+
+
+
+
+
+
+
+<section id="sobre">
+
+
+<h2>👤 Sobre mí</h2>
+
+
+<p>
+
+Soy Jovani Aguilar Silvestre, estudiante del Colegio de Bachilleres
+del Estado de México Plantel 66 Temascalcingo II.
+
+Este sitio presenta mis trabajos escolares y conocimientos
+relacionados con la tecnología.
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+
+
+<section id="proyectos">
+
+
+<h2>💻 Mis proyectos</h2>
+
+
+
+<div class="contenedor">
+
+
+
+
+
+<div class="tarjeta">
+
+
+<img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6">
+
+
+<h3>Diseño Web</h3>
+
+
+<p>
+Creación de páginas web con HTML y CSS.
+</p>
+
+
+
+<a class="boton" href="#infoWeb">
+
+Ver proyecto
+
+</a>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="tarjeta">
+
+
+<img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c">
+
+
+<h3>Proyecto Escolar</h3>
+
+
+<p>
+Uso de creatividad y herramientas digitales.
+</p>
+
+
+
+<a class="boton" href="#infoEscolar">
+
+Ver proyecto
+
+</a>
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<section id="infoWeb">
+
+
+<h2>📄 Diseño Web</h2>
+
+
+<p>
+
+Este proyecto consiste en crear una página web utilizando HTML5 y CSS.
+Se aplicaron etiquetas semánticas, estilos, imágenes, iconos y diseño
+adaptable para mejorar la experiencia del usuario.
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+
+<section id="infoEscolar">
+
+
+<h2>📚 Proyecto Escolar</h2>
+
+
+<p>
+
+Este proyecto representa el uso de herramientas digitales para organizar
+información académica, desarrollar creatividad y aplicar conocimientos
+tecnológicos aprendidos durante el curso.
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+
+
+<section id="contacto">
+
+
+<h2>✉ Contacto</h2>
+
+
+<p>Alumno: Jovani Aguilar Silvestre</p>
+
+<p>Grupo: 601</p>
+
+<p>Materia: Páginas Web</p>
+
+
+</section>
+
+
+
+
+
+</main>
+
+
+
+
+
+
+<footer>
+
+
+<p>
+
+🌐 Proyecto Final 2026
+
+</p>
+
+
+</footer>
+
+
+
+
+</body>
+
+</html>
